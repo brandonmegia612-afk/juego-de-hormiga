@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/brandonmegia612-afk/juego-de-hormiga.git"
+    "deploy": "node scripts/deploy-pages.mjs"
   },
   "dependencies": {
     "phaser": "^4.1.0",
